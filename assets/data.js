@@ -1434,30 +1434,30 @@ const DATA = {
   "pembaruan": {
     "ipm": {
       "periode": "2026",
-      "pada": "2026-11-24T16:09:55+08:00",
+      "pada": "2026-11-25T09:06:47+08:00",
       "oleh": "Web API BPS — tabel 278 BPS Sulteng"
     },
     "kemiskinan": {
       "periode": "2026",
-      "pada": "2026-11-24T16:09:55+08:00",
+      "pada": "2026-11-25T09:06:47+08:00",
       "oleh": "Web API BPS — tabel 90 BPS Sulteng"
     },
     "naker": {
       "periode": "2026",
-      "pada": "2026-11-24T16:09:55+08:00",
+      "pada": "2026-11-25T09:06:47+08:00",
       "oleh": "Web API BPS — tabel 91 BPS Sulteng"
     },
     "pdrbTw": {
       "periode": "TW I-2026",
-      "pada": "2026-11-24T16:09:55+08:00",
+      "pada": "2026-11-25T09:06:47+08:00",
       "oleh": "Web API BPS — tabel 287 BPS Sulteng"
     }
   },
   "meta": {
-    "terbit": "2026-11-24T16:09:55+08:00",
+    "terbit": "2026-11-25T09:06:47+08:00",
     "versi_berkas": "sigi-awal",
     "catatan": "Angka diperbarui otomatis dari Web API BPS oleh GitHub Actions.",
-    "sinkron_terakhir": "2026-11-24T16:09:55+08:00"
+    "sinkron_terakhir": "2026-11-25T09:06:47+08:00"
   },
   "kependudukanAngka": {
     "tahun": "2025",
@@ -1471,50 +1471,50 @@ const DATA = {
         "judul": "Pada tahun 2026, jumlah penduduk miskin di Kabupaten Sigi berjumlah 24,43 ribu orang (9,76 persen dari total penduduk).",
         "tanggal": "2026-11-05",
         "ringkas": "Pada tahun 2026, jumlah penduduk miskin di Kabupaten Sigi berjumlah 24,43 ribu orang (9,76 persen dari total penduduk). Secara persentase, persentase penduduk miskin di kabupaten Sigi Tahun 2026 (9,76 persen) menurun dibandingkan dengan tahun 2025 (10,47 perse",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQAD4on6gbblzvcSJiFxwV6_GoYHuDnOFL2suy7kPUQ3lP0j0nOTVLwc58ng1ZKTXJqUAOCI0MsZtGiEd49_DO8yyX-tI-uHWd8ZQ4EAscUc2G5fHmx5v8HNHPTjVOVRSAe9ddGEpsjYb-W73MjBxpZ-OZtICVV6EKo5uOz29ymtip8_7839tLHHpAa1TaYscFVGh25FV3DlgjGcMI63RBlamSisBnt1YkOvtTdcWKcmZ0YUBqfK1wrmdXW0A7x9iYlAbglWpaOBCnmOvmezti8",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADu23rgnDcGdq9BPk9aJTiE4sUodbz54ZsZL3TmZGa1khhs2vb5oN23S3BMxd3L1sX145j901Su2-Ax89mP7bZusyAUiyHBJgdmdmK9aH6hRQcusSroHlYE3JhPwSHhPjoNU7AX61OtCLPNHkd-vUukqQXLislgFaoTWCyVjsX0KApTdMO6T1-tXMSV_MJvRVHy-POLmGHKzV-Ym5DFPlgAUutzhCemMBuTEABJzZzfLE-58_qWN0CPuHq3BDCZakUcH7BGzfyoySkG78Q-Wi0E5XvDf5KH00"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADDbcDyGwzLGuYlTu2lTbUXWCCpqb-FNPRJu1yPM4zYnE1-Phx9WugIr6cZ_AQ9TKJNYnBGnIyYP4DHeVB7pC99XLKKeUJppoO_Zfk7dxEGBjkvNTc8AW2gBBJFHc0-8ERoIO-78svjh6qqxbED-MGhJ8jAK5nBbUMC56QDKwUxHNNQSceeCKzMW6Ayl7pdPPHH0_yfUK-tkIsVchXphys9fuUjznAnUleJKVNaBd95dfWahhxtzY5cnMkRpnppb7Scq6l4gYS-n0ls4CTwxM",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADWQ_LzpkBS3j_JH74fyMLY4Gae0LMzK15zca1AxfjQqCjwnzUma4Gzb3-XRfqNAPegkYpHFY3IbiaIpqgVVkoMXqe5M5B321Cjc6JQdevayMEgz72nRqxjhOYMiGc4tcL2o46ug3kHHgwgI02iVIGHPkuYmMavL_K8jJSzOiZyIJkDzBw4l9FBjYx2NSP3IPYIeF4s0lK1M-Lkch8UY82D8z5D-7WdmCb7SA3kfctE3zn7dEIiNA6Wci6Hc7-949NbbHc4XeVKfasrnc7gurC5gxWzqWZCjg"
       },
       {
         "judul": "Pertumbuhan IPM 2026 mengalami percepatan dari tahun sebelumnya. Seluruh dimensi pembentuk IPM mengalami peningkatan terutama standar hidup layak.",
         "tanggal": "2026-11-05",
         "ringkas": "Pembangunan manusia di Kabupaten Sigi terus mengalami kemajuan. Status pembangunan manusia di Kabupaten Sigi sudah berada di level “tinggi”. Selama 2023–2026, IPM Kabupaten Sigi terus mengalami peningkatan setiap tahunnya, dari 70,28 pada tahun 2023 menjadi 72",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADkAbQhZKFGi1OCEcTp8lBQEt3dQGTEpuJmwgVQoc1gIQcyOPXRJvnmd7HMwprob3YTSBGX5rtQ3fmIuXRTJvJiYiyXOvetkGn4BeRizh7ntCAKoBrOobiJVbtSpj1aMHb73kG1OkQhj_NpobQ-vkn6YtDpjKQM_PaPhLmcSm_fpXaGD7X5OoWA-0LRfJLGvuy33mlDxeq7JZ9PKu8-eUn5I9kByord52aWIb8OlnvQV8D6Ek83II8l9tcFCMprn152Ar0yYxflRT2dhWSl_Nz_02NbgtUCVKVufbK0pY",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADtQZ7hIThwcQHJy4rHZQn-3cCUAg-DTCn4qqvjEN-9l9das8fuyC1ul60muAGrR5kLI1VAwlZ3f_qdUIttMAIpeFU9U1Gd0VXyN22ejcWsRKVtWMft1rLIUKgxVrlUwzEbz5EnKuZROt8GwO4gm_KLJp2i1c_bvn7xwUk2jwVLvnOc2ejj5w9wo3OV1h502iFfRBOtFjobBqA4F2pI83cflXvZGUNfd4ljoEySVw9D5yJt-3ZP1_WDhV2tM7vG8yOfP5uoZWIsRcUnDlNdi91uopkJc1p1qEBmvdzvDYPQOjq-Q6TsdE"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADgS9KPT_fnaElp9LSeHkzZr02jEAAQ1pBB0PABSs6nsziUbt20BS-lV6w_PXvclPiuQKFpJD46-BL3mZYIzGN-AwLK_dalQjaUGj57CrbhJOlr3cWHhiaVDUpTCbbPeDHPmentKSLFCnvVPKBrzGMBuwQUMl2MwKUzMu9pjyKss4gEkpqDLu4d6oZMu4nnqwpWzHd4YSgi5PZDl6qoFkHBUx880gqW_-A5J439KJwTt6CpH8VmgzqyE413B5s6m268lQkBToHGQNgokFo94FhfyVBDkd27aie9aRH21E",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAD71pj3B9b9OvhJI7oTyCndhm7lWQH2gf8ELmG6ApQNDHGNN37yQXGI9ApLV026TpniSGr4ByG0iV_9_JFsWmClr81L6_B7sr80SNiOpHJSf7COpfUDOF1r4mzxpDiMgORKiiBn6T8tz2Jba5SvF2XXmSIWQ0RsMmiGQgqg6EKoVgYiFGmwQysGVMRXm_2lx9lgHXnZS-lD-ZzogtwTc4F_QIYgINNLw-U4SfGwqmUvxSOYHBpuWr8nhCcwrZj-cEGL1KCH3B0Jsu2IExdFgoIXTZ-S4xw9tEuylmkzgg8anrD8qvjydo"
       },
       {
         "judul": "Indeks Pembangunan Manusia (IPM) Kabupaten Sigi tahun 2025 mencapai 71,68, meningkat 0,78 poin dibandingkan tahun sebelumnya (70,90).",
         "tanggal": "2026-04-06",
         "ringkas": "Pembangunan manusia di Kabupaten Sigi terus mengalami kemajuan. Status pembangunan manusia di Kabupaten Sigi sudah berada di level “tinggi”. Selama 2022–2025, IPM Kabupaten Sigi terus mengalami peningkatan setiap tahunnya, dari 69,40 pada tahun 2022 menjadi 71",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADRehVHm99PJpt4JCni2yHplBs9NRgLEEQtuOEbc4g8lLCZRr8E1g7sKWD4X05BjRCkcW9GARwkPmnvVa37sJP65N2GkIkaTRz0uNAxiaLQosZvn6BAq-JJaqlIMQAkuzop2mPN6K8wfl5DxfGuV4tLpFPdauFXMt-U4Ki6KmWj0aruv8t1_JMjtSY5iDkbNHz8OBHAE4vLSdYsnprVaKkuGI1_bYE5UljalJeWyEtnCEV9Py6IxdGuGBOT4EgTbBWessX21dS2-kUCvbI6koW4JdjvRwK2FnigwXPezYMk9CevVjSAd-Ohf4J4Ia6dJX8ADrqcYo1uKZ-NHva-vuncZ4cFCV4tW9Xy7XYgwKkugCn8OobYW_o5BUcMycPh-Xx",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADs-6P02VLmumnLWMcb6emIXBlIXHuwcJv6tvr5PJi1Y1D33AY03qH-WYRo0VZUuvtu1xm_sWlCJciukKmT-6-xR3qtUyevmsSD4CrFlIlGzrwPNsrPjTo0xoPWDD2yLfLQfQ0Pqtft7Qtk2cKVcpdImX8bZdi-GdMArfH8iByIr8QHLvfrErErbE1uLuYgRbGlgvljtZlkKqBAMoZLB_MSwfvh8v9pp9k5mlgm7lk3-6XvgJHMt8HKoRPvvJaCR6hwK0QshmI57vQY2rOrVCP413UQBFem-bHuWMSbdiPdkS-Yg10vPNF-L8XF3rjY_7ikqhgt_sxaY_j7liqQ9Bkve3qtVMKHLJCf8v3tvYnuGNnJFek5bK0wY3ZZMANLMk0r1Yv5rVq8IMjiw_bDw"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQAD6C_FBizKElmP4ES5lHauZ3gJ-SrSP4eqnDFwzgOCPnJ_UDXKcEt-w5f3n6M71gMvUhCmf3keI8rH9YTXwe2Z9tXrw6NRvrAlQQrvvnwfd20XiqHxCG6CxhpcnjRO2ehlYV_PJONwlfQ9Gt-tZgiGyaERSbYx2g7zdyK-j-4aub3VVehnAfIbmCx-ogUI8kHNh0lVh0xo2fwx60xlZZPO4f1rFvgrdKotzd3HXTYEl_t8--im_itKHdpjp0dMNgNQM8NWuXB_5oqNSUokGAM1rmMQIT7am1_fLuck7WT80GsrZzB4B0XSZ1fUh0TUdE0V2JSmP0wUvdlBMCfLNUHvWYoqX3Rb6ql2mcrNvIHdkM7LCyqhJppNfiafi9U5fKVi",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADvJtxhcAcPc3VxTIBGo4FmsejcycAKA3Ov3Z3QQE1BC7xPPYYRS3MVIvJAOWrfd8IFxsg7vwr9QZ900FkxmXfcYBXSCJeXRWakkgAGtqHpD3qaWNhnNDij0JzYvaEdPgtly-UPy9UipXJnwtWSHPKtAX6-xW3kSh66d6pIG6ww-wY-gQcJIT4XFiWz7K9w4uvOZFLkuxEU-f8zVtuRQPhBfCI2UbPkMwfwF8z7AGRwL234vV1Y6L0bXD7TXTOa0QR-hdFF1C1dd_PwE3jf2-aNowPC9HoaCa8e9XL4U6F5yJeu_ZP7GaXiQ6SLge_Cmry7EfxVh_qTaoyDrsh-5BC9-2b3g6Mxd5ir1u4Yxk9SmC05prk0MIYb4mbdeD2MuPvZG0EfldT8ydVIo8BBQ"
       },
       {
         "judul": "Profil Kemiskinan di Kabupaten Sigi 2025",
         "tanggal": "2026-03-06",
         "ringkas": "Pada tahun 2025, jumlah penduduk miskin di Kabupaten Sigi berjumlah 26,03 ribu orang (10,47 persen dari total penduduk). Secara persentase, persentase penduduk miskin di kabupaten Sigi Tahun 2025 (10,47 persen) menurun dibandingkan dengan tahun 2024 (12,06 per",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADPTYCLyafdZ9jSJTsV8rU5z9M31gD-JYT3re46qCY9bTdPqLyqrZOTL4Mn2EbWHIRJu6G83lqb3el7MBSUaJRVxkqAaLZmiKyCmkEpGcRn-9dqPZ-WA_2_ND6bgRvyR7rH4vffu213GbSmHagOmwWeedjPpQM8AuUr9f5tXTyqwyRNE5qGPnzSc90zkBb56QFpBdP6dZMRLN65nMEz8RVb-1gh8KOl8tMUqCcs-QoG_bd7YMFIeq-QTITWWYKX2PY_oTBTZ3R1qv_L-o",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADOPJEcWY1cbgKKNIWIb7e0zC9F08kG-Wlqr3fsvWtnaz0ewpOzWDc-xSpaiGlRLQmC_b2U16LFdw8y1VSWbKl1oGKbXvOAa5XO7dpRkhdo7xau_56f7_RxBt9jtuevg5PsvxtFwy2K2Zhl_4t8CVtC1TSUV1-crHf2rJjUpd69as1x-iHIypFrhljxB-ZJ_46qIQrkR4ck9KowQQVfJZLkDtE0GU4nWW0YFRLdEE83Jb94mgQQcCi4f72DEo2kLNr4B_MU4jb41OAFyb6oO_npio_4cg"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADaFc6ZYaYLvjOLoUfkg5GSkfUKLWKs1SnZYuOWu0mTWi6BqLQOXjLYQzVzIMtqSVsiT9aaU8EgEFctKurBDbVyPhsSDqmLnZ00sXrXnXkwLJ32PPtUJ99bhrK7t1BhAC3gMnTZKACwgf56CWBWuSHn0Gz38ftTg7ixDCJ6tHkgr8o6W-hkCx6g_PKREFJhpdV-iJ30bY4JTQMrIYz7ExmrDNu_SK_tumWv_SIzFMsExc7OCQJyRpROLWLxgfXKP0T-ObikigA5Tl25vM",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADh90J_-TVC-5flfAwVX8vPDXNrP9fctd1SsSuHLeH_QUwI0NkWRaa-AWWKHszLgFFY-Z8Vzjr6jL_7lamu-P8vt0_-1gI6NUSz0VL1lmbGnDHmo3DmxZdTDuKm2vWuVxO08RET8NnnxH7JnSh4uN4p7BcJGwPAWMkVxxNtgbEu9GQYXt9sz2dXwMiS5XbSufzOFerL0lS4vcDidMit8u9qIJmH9fu6hiOgb2ArpFyq9MwA5PJX0x3F_uSx35A0jEsGQwALbxX_Iz6AjjHnb1NHfcGYzE"
       },
       {
         "judul": "Profil Kemiskinan di Kabupaten Sigi 2024",
         "tanggal": "2026-03-06",
         "ringkas": "Pada tahun 2024, jumlah penduduk miskin di Kabupaten Sigi berjumlah 29,80 ribu orang (12,06 persen dari total penduduk). Secara persentase, persentase penduduk miskin di kabupaten Sigi Tahun 2024 (12,06 persen) menurun dibandingkan dengan tahun 2023 (12,83 per",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADJyUl5OAII9n9VPOSTwOf0-1GJxMrnJZx4gpabzTi_m1R827e6WA_fLErMz4WDTHcYkrWwIIskRmkMPBjsNEqwTjnrlhAB88C94Kl0d-bW70FDFmnzzOaEl1J55gaCdwtPaPKL_z_3Bmr1uxZt8GIZrkp433h9vDVClQovDsHaAddR5EMsoZmuyMYsD40_9_NNT5cnILOZ5zyZ2e1aCaB5I2fgqzkHvA5Tw8Xws8quTEEw00KDPDu2dO9CSJV7RlI92WOXpENRAlp-VE",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAD8rjbrmZoLbP4i5wGhXntBIKYvy8w56dlJHqTfy2_fgFRRVVYldvY34kLOfglztw453cvz-CXuBWw42O14pzuiWoFxuWTkrbV8DmgfEIlOsIHwAsSmtnPX5QQ60uz0gh8_Txcp2KDeNp48iXvWTn6wcg3A1vnLG6LQ5od1RowhxLn48n-S4Q07sV3ckANrQxu_sm6Op4qxmGRCrdYpK3ifmqm-pqrTGV5usuuh82Bciy5Eyycfn1_uazOFbMlt4YXtWtt9ZVKKYlckG_K1UuBeToCSTA"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADNtUUKZNrhWpJxuoV47sWcnjHmV4AfqKpYbqNZfoeNngbL8EcaAMxQJ6djd7B_yu2bUWanQgaSWC27c7hl2TejzxfHDZnqYG0g_3hClkL002lYELiwJ7MwcJNdRMv4RAACdw_Qi3_kg94yH9rgCECeVpNS_9eMGMZgXvcqdHhmIJ91xNVJLFY5sheU-WNY6YoDBT2zZBEs0ErZbd1QPvLkwzHCbRCPT6F0pkmtJJMRt3Ra8JinpGS7_hVWq8wwXQTgwIqlhOQyhOxJtQ",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADLcsaW5Gdr4UHPbio58WfG0Ym9a9lvC7bR7NlnYz9BUfx4r-N5IJgVRFpstY0z9imM2JjubS00M6GYyK6noCDtAc2FU1CqZa9lUpWXDBfRpBbgZDFyBiwz4IyXZ1Hs1k7QEUUcdbMwjS4EcNEQ0ULvMgcrLHVrI5KLDSNwWkELJomM8vdbqPbbrTQb5EglheRj4-vPOtV4F_UOAxJndMGGf6HkH-PpBzTVIINUzuIERhAmkxgk0iDOn4g85-Bs6z3gPV6pY0FIRyzcpZqb13cQHR4Kyk"
       },
       {
         "judul": "Ekonomi Kabupaten Sigi Tahun 2024 tumbuh 3,50 persen",
         "tanggal": "2026-02-10",
         "ringkas": "Ekonomi Kabupaten Sigi tahun 2024 tumbuh sebesar 3,50 persen. Dari sisi produksi, pertumbuhan tertinggi terjadi pada Lapangan Usaha Transportasi dan Pergudangan mengalami pertumbuhan tertinggi sebesar 12,92 persen. Sementara dari sisi pengeluaran, pertumbuhan ",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADVx_58AQjiOKMyBWUkkmLr9DFJM-NAhmAX50TNDo5Yjw-DPO9BD5laYMdvixLrhE6hcIQFDWQcoDN_AGdpYSEqWkhwNUrHVlTO5HvvVrY09OMzUOaGjyPcbAgTTpLJQ1Dh50hYW3lMRcCFLMXvuqIbJlwWmu95WFAmTIZgokTAWWczKKudugk0jD8bAHZkoyddiiHercEOuzNiaViqdZHRvtHlKJNcczp150Dj3q-TcZbY88gAke6KFpUaAOiP4BCnwASPPGlJUaxnuKc_KlMjvlydPU8eL0",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADwl9vdSbwDoGf4DMLjZAvjDAfvjdFy5PCf6y2q28NEoGxWrx6Dwkj1Dz4Q8jxA_3DKFCM6T_VrjyZcaTALdFOiFuAL3A49y87x9RRI2Eazh080Qt-WmrcevBhDK117-NCw2hC20lwWKjJ-VN3nl0yfntIkChvi-C4Q91XOtW-VVqFa6ntAzGIuhsGFk8SxkkVz4ptlYQyz2O7W7nee_C1tK4vyQ4l9yg5NomXQOuECj7IAd6naylM9dAMGQfYYzDdwf6Gd5sVqraLNppn6QnYvklBIhPpXc45YYSBmqvGwY4"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADC8nvLtDD64dJh__s2Kq1f4Ep4_osG0Ok_mLS0WVEmRpcahQD0SkLzGt4PtvYhwUgNbcPTkk0wtQfBPYjbhurq-RJ0h6BNXViAOWPhCnE5h33xiVRIV2eXcmJp-Ul7XFmS0KWgyjE9Q2U6W1EB2MZoU3kQJ4-NA-vVRCJ3XFIWMp9pM0mdTOUW-lut3eyIVOhTc8M2OcxElt_JJGiT1sm43TVXczAig9gQYDARGsjM03jxtu5fGBXNzJ6yFIxTQgYRFbOxrLvy5ANMTkRA-PxQSCg4gxARhE",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADmOZqXBK_dO-zDn_0tp1CcVHuJOAx5OjrjiW1fVSd1eHEUsyCK8_adNOmkNI_uVDYgJzoMR2SHOmgFD0keqAMeULZgZt5C5W9byWBhT3GCXeAhT1PxxU8X7WnqqrVx3BkW7-7SynarpFJJQDUMTrSymsgchx1JpHYupaGIJ3YfZsIfO7GgA1KGWnVTWw_Wr4Qtz27gsmZNaJGiO0fl9IGjjIolwIhWeJNVYKSbO-ljbcbgovzaaW38imADHkprltUra7nQaBzek2J8cKxk8VsPDkRHl1Hr72wlpUSf0Y9GoM"
       },
       {
         "judul": "Indeks Pembangunan Manusia (IPM) Kabupaten Sigi tahun 2023 mencapai 70,28, meningkat 0,88 poin dibandingkan tahun sebelumnya yang sebesar 69,40",
         "tanggal": "2026-02-10",
         "ringkas": "Pembangunan manusia di Kabupaten Sigi terus mengalami kemajuan. Status pembangunan manusia di Kabupaten Sigi sudah berada di level “tinggi”. Selama 2020–2023, IPM Kabupaten Sigi terus mengalami peningkatan setiap tahunnya, dari 68,48 pada tahun 2020 menjadi 70",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADu8GolMRBDGwQEPlg46_Q1L6uiQaTlpKgZbZruD23jI-rf50xW2meRzFHGuwhEfp9eXtM4Of2CcWoh9vJPg3w6mBIdKbsl9tmRxqn8aQ1c3ueclOwJkArL3BFK0zdcSPBNxjHrFimuSxKIOvbKPWwzGFYbnowDhaTDzhiHhojgDx520Gpn5qiWqJFZjHeTN4jXbJBkMhG3O3njBASIqbV3_9pKZGnZaPqBSKGfGpzNMBBVeBcgJofzj5UXGD9gW53xpHeJm1iM5d5ewuMOLz1gH6HT8s9g526PUsRWXm8GanLCZQeZ5SDilxXJNxaWmeOsip-ilBFSkz_M_aYkAsRUJDBhsVLGXUSq6zantHD5antQ6NlNS8d16qBQvnVWFxBpD9aLUm8V_ALVSNNhAxRFvKh",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADgQKlAqUn7pSaj7nfHTS-AFsATPXLVMSPnMN6PApHXm11PGKGnz7Bm3uB_R-VfQiNfJnN_z4vKMVHKBIivyUZwIDz1gNWT8lLu8RWSBnVnbWcuss1IIssdGT8vU9eeq2qRk0Hlf7Gw72hOc09lYYbrqzwh6FIb7FPMPD4z6O8Dt5mE2sK_aBG1xIO-W5J-enFosGCUbMWN4z7fwdnLKuxC2MJDY9PGnp4tx1zYix1leirNotDlqQcBxoE2krIfvWvFIFg6WcYwNAFvtnAEUxMKtv9wVqdD07Nqgjm3AFw6G9DeMLx2G5Cjo_TNZ47djUxdmsDxrhSH1ceZa7ctppmVkL32WPviyyL1yVGv2lIBeIUKKrprXCb8au9DNaz1Zy--ghjPL-Oz_0Y_yn4Ch6rA49znyV4DTQcVjRS"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADTPPtLTPlwTH30JPUJDmRwUYLi36htyw1EcYgIbLdX7ZDEk3R8HEJb6SgDG2HAcJSRiYMX7D5rzbawFhkMH-VbAZ8-mOn21hIg1c6ISWd-WqFDj-Wv-GyufMno4FDbLCUC8wla6BKD7_r_tv_lMu938ouE82-95K7vYtVve-l4eTfpP0qdtqeLkL3e_o9cKc6O9aqnPZhF1XvlGpdXMnCViDMFP7qM4JrCkB9ZjUTKH8KkUahHEj0zr4TK-40sja2YsOz7YKFxdoVpXY0BnShGqa-hFhyj3rq6iTmRJgHnLOPCfMhWOujD8ZlvTSOxDszyjKTRSneYd-3N-VnUSj6h0Qeubc_-1T8ryCg2k81tUvfo3pxhv02ewPrtFEOYd_gQ-_MzQ9zTnG5zMojFXl9Tdrv",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADmt-Y1DLOhAg8Isk0tWM1kNfo07SuRuEyrBr3qmREcCzyZzn9iDIVbxheRcwgCjagOIvU7W_OU1UrnrgZ2-2INWc3A44m38Ar75wVcaaZJgQ3aSmvVgRJQ9rZ2L7sWK-13M7Doz9uT_66K22eRDp6jJqyxyNLAUTcKNtKYGqsksAwgqA7FvkLi-kIThV8FPZgbOD5AzYb6QgrFRdvV8sP7tN1SqjTNT3h8qRaEgFoFVoLNCqhJXjjP3zEBfHslSuTyt1GxLynYXwn0hWWFodcl0_FuaVwev3QGvaPNKVuUxE8TKeqC6eX_bgiB0GDp8zTm_FlOIRaWEPLl--qy7fZOpB7IbrF_WBUOqafzXmlLnDabYkhFc1m4MZbSr7C2i1RL9A_ezs7a7Szy3xt0-KkeDxZd7qMILye7RtF"
       }
     ],
     "publikasi": [
@@ -1522,64 +1522,64 @@ const DATA = {
         "judul": "Statistik Keuangan Pemerintah Desa Kabupaten Sigi 2024 dan 2025",
         "tanggal": "2026-11-11",
         "ringkas": "Publikasi Statistik Keuangan Pemerintah Desa Kabupaten Sigi 2024 dan 2025 merupakan publikasi yang disusun dan diterbitkan oleh Badan Pusat Statistik (BPS) Kabupaten Sigi untuk memenuhi kebutuhan akan data statistik keuangan desa. Data yang disajikan dalam pub",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADr38vmtgiG4F_PeZEYFd796PmypUWsJ90f00gO08sIFQCJ-47qVn6QOUB4pTj72wHibxiCfGG_WZil12BVQ0gtHCdZxwG3b3_oa8mDd0muH_H97rpTSvMglXRsCP2SwHZuoK3Jtr1HLzIkitBkqj_IPWd8-xEYFrdEf5dka2BSXJ2CYAB08oZtTR0zsWfF6wBhOD_rG7GJ1ZfjoQxQupnbaSzyPbSoN8eudY14ekus_cOI00ALe5qO552lSkHSkw_F0wX2CO3wRVZVMiPCshjhxcPj-rmiotc332yO9HWHkEgtvtEfXv2M1AVevOx7jbBATUjbcw_eVfjUcUrqZgAuJBUUkCq97WRVA",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAD3KpO0NMQ96oqaJbtB0rRY1iiS1TgJJ8KwciMp7FfqsumBe8-UkeaZiSkLJ3p5aC4VQTkQe6YnF6IXeFBqpwwCJcPIoVQZMIqYiOCDIVz8jwV62tfTRTLlwZSiw7_oCbv2v24eR4TOysGMwZIUYogwmvk9ss20IPLkDOm1hbzD9BDV5Oe4aJR3CJTkautbOU_N4vWVSko0OvlIVV4xiLnRIEg4t3mBUqtSrGEglo3pl0wu4STPWnzYFHS5lD-_hDQwZCfq_4PvMrKHw3HvZ5ezv8HQoWgySClaSV3L16eqexLDTtXqHqDQoVT7lJXqUK-GbaY5S3x6DbReBm8HDWUD39CQQXfDYC_4EgBQw",
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQAD9xyayMpwFRlJriAB2YHwoz_WNr6O5DLRawOiYPp6DZx31pk-GjUDVt3ZckCnZKI0BO6y0k5mXLUIFecum9y_PBzMl556BU59aQJR_qdZoaS5qGghbZ6Uc56nLEnPdAPVOwbIhjxZNhugklkRUPS3eshxf3DmVZP-PCDP6SLxRBLbKsSbSyTTwaNlxpTF4C-e-WmiFgk2KtD_CSKba4Dfm2riBbifOouiEqrR3uv83gFUhdAUmSLOp3gSRp8BQ7salgUee8ZHtaUMdxAXGsCcl1WzgzqQs-p4vCWch32CiglvLJGBtLcJ02dyfOhWkETADH4wJBa5XSfemTnwG0nwnNNaRDBSsGGjqA",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADMpvxv2E50OJZGrmppMyzUHe3RF4quXp0n7CLh2D6Juo0YpdceVXslkQyUBbE9Qc2VDEzE-FUttIXi2EUco2S_P3WDqV5rZcSMIwKs4H5leZunOpkwX5_WitFigV6s_mHxZj7i2GcapYBtbEA-hb_skm95PpSB7kM3PbsdtEjqhYNCA7axltxip48_akUKJ1gOuOLhRAhGPUgGuHJr19g-s-WcC66GbNf_2CuLXAFDFp5hI8WvdjwtFjPmbPo-18pVt7Go7j-UWf8bW7kBcoJM8k5dJJfvjF_pkgGCWmGNKWUr5GfyfLyzfFut9PKfZexcULE-L0o-_tnIoSS6G4oijJkseUiKB9s_KhlCw",
         "ukuran": "3.82 MB"
       },
       {
         "judul": "Indeks Pembangunan Manusia 2026",
         "tanggal": "2026-11-05",
         "ringkas": "Pembangunan manusia adalah suatu proses pembangunan yang bertujuan agarsetiap manusia mempunyai lebih banyak pilihan, khususnya dalam kesehatan, pendidikan dan pendapatan. Pembangunan manusia sebagai ukuran kinerja pembangunan secara keseluruhan dibentuk melal",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADHa68q0S6sjQmAH_BTec8n3nHeQUuI6cym-41vUiy-f6on3-ziSKyqaRTGUqHEHtbl9TOcyt4GNcu6v5tHw7q8phFwaq8K8RXj445Yj9dghfQ4W17SM4gk9NHmT_TsAux2_Bvs4KWdXrLG8o42XgHLr7rFwSU4Kzk3nkmjYj9o03WV69FCG8WQQhhfUae08yxNAaksuyN6tfXl1V-Qq-xbYICM1JlQ4uN1hKLhMJiiDdGghmaZX_hM6ptGMAtVsoSgYngooxmeOauYp741g_M2WwrBO0gGjooaiLT5WGgtPqNe2D0NTeJzYQ",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADeWKjy8j-eqsJoV2SHGsKb1Baor1AN5puiB1QXBpnbz1ifAGKtr9AVR9tGRMmDIQZ3DkPkA0Nq0hbkYJSLf23lTPdZppgeoXTgHZ8rCwialgll3ugPJedbIlyWXtuyb65JK0jh1821hZeg2T7IyOJ3dVJksjidaSJKxZMWl4UBNoNG5IJY5xZ6FoFvC_DCzhEYrzCMPaolKWcujfkn5Da7wPSo_b9SpdP0eCQ6NmBfhixON4u5rUUDWHzylr1_SatKCyvOj1OxyvSir_VH8jT-B_RuddHQy20XDqiBR8zOox5j8bFT1LYlU32B74",
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADR9IwdSu0G2ZqoGuAj0RndGs7dWiuW08B62rC6BNqwEJmgggnWRm0MQ_bvIon1jOWcHwqQuCkuzy30G0U1WBRI2lGkOaAcnh9bgrI671NaNioticrVFzt8mNYjwHcHJyi5hS9JYgE__ie8VAWY-iLUJ02pD22mEb-RnVmgd57CX8xq3x3GP2G1zN4sDIy_9YK1QlexwJcsBedPMuKgYs_h1B2gNRM6xjjpoGmTofglS7BewPQ_lUsFyRo2hUHj_Z4qjc5BWUWNvRei3xvXgvd-BLSGX9k4cPZKVdvgyrS52sAF-_XFyHeHWQ",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAD4ilHRvFr1ycYElC2y9H3X5tow7jZu4fCiTOMWRe8pd97dcQto_3PY78ZgWSUFzfjchAyzeo5uRS39dVxyzdWktxGYHUUlfRZqJomNO65sE58fxD56prVB-lpchpFcEvo8gCVcOgBFpEQM3o5m7J9-_znWETqrMXsZF_MjzkulrqVvZnpewOPsO8e-AgsqtzsX6ch0XDVZavLRqfowtAO4CFK0kCK3lRjupY5KvFMk8LOZOjRQR3mVQq4eHgJ4vdBg1MuMJ22dDAriBCkEi2mLcRO3W_Ng1ect5Io53V6fVJNueZ-LfbESYOYGSw",
         "ukuran": "2.05 MB"
       },
       {
         "judul": "Kecamatan Kinovaro Dalam Angka 2026",
         "tanggal": "2026-09-28",
         "ringkas": "Buku Kecamatan Kinovaro Dalam Angka 2026 merupakan publikasi tahunan yang menyajikan data yang berasal dari Dinas/Instansi dan Kepala Desa serta data primer yang dikumpulkan secara langsung di lapangan. Publikasi ini merupakan lanjutan dari publikasi tahun seb",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADz83vneEPcmnKdbMUAeZe3TYHVMqI7bDz_tk_zh6jAiL3rDStFxfCJImm6NVTpBj3OTGtS1aJmQOekNqHKjgtdfEn2GzWEl0uqDYPnGexutIADIvUyW6ivd6gZlIT8G6ELxVaXLKEROQiJxSuNhJkIDb5G_5QDqS461DlKPjADsvcDFfbx6Gq0GtLaAgI0MhUK7cBZVcjpLMrjrAX6fXEl8gDpbKaMfhhe2Fa8Mw3_Nvm3VhbGxqOFmRJARwmjKz5UImK9z1D7HAO-OoY1xFbn7GenIVZNSuI9UmVh38XNzQWAeMOGbMybuk5R1w9",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADYsMvXban_O-cRrlV5DkWYv6LNUW1XHyTTCyoZ8bNoWoMzczLeORWsP5lckNYIl4kzV4ELuWUGbVIEuBwEoqnfeBc8yiBYtKdQu5JmJrmZK4wriF6HrnJ7hVFi0PBAVFuDNsWYV5OEY7ZNEBWDf08KXVNgNWXailTKIwCrnz-LZH3xeif_VpXlf97TWV93vW72gKlg7in2XXXAA3qYWDygt8D31zwlVEW2XaOTIV-5rkTjhfdCFtORx-KOPSPsvFuIGNaXPTolY3u2gPGciUbRVap4M1zN6nRgLdZcR_Eb0M5MQK98mslDTF-z6vBQAJr",
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADsbsLzh9TZefH64E7WQIVPTUdarDasPmYFtKOmgKsKn0YkCv5cQQfag3xkoSaBw1lx9gxs-XRHn9quGqOGZ1m8VojZycKTeOw-vrizS-L9P48xpHKxW4Fz7WZ7a5zKVmoTOArK_qsbk1z61AAIrZ8YToFtOOpbVarOa3-hti-Al7QnJHP2QVuCXdUfqB9VUY_fFjS6q8fnzkG_y03u37wiB7hlSZ-s9qQ35S33Gqr4TEq6RuAXdTccCCuP85Ak-VRkFL8_PdKkAHu_eDsRmLPMGhnuTwfg1x86N1OR9TRi2N8qyoHaFu2uan3zQoK",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADzosWKphE9H19zNJXUoYUuMIh9HRDwCzwd8wyTqJWTeEoN0O2coW3efaeHu-N2CWfIPyfP4wk8AqnCMPUlkc0Vby7_W9l2D9HEZ1flpUj1ehpu1Wt472idggXYxKm6GFWHXzbRZ1X83Kkvq_1ZGmVJ6mVXhHCxjw2Lm6pvb0i7hmUmbZlmDhwOlwh3s4cYS7Y7Jr2iwL_-8ZWwXEsCUr1hMq4yaFNv6JAZB2V2RidX2rCLyXFT-SzNu2FowR9rN4A0dRfoydrxsGNSY22skteOKfuKH05IDTDiBjZnXqbU7uFyyXiAWwNczHN2ev6e0Zx",
         "ukuran": "5.33 MB"
       },
       {
         "judul": "Kecamatan Marawola Barat Dalam Angka 2026",
         "tanggal": "2026-09-28",
         "ringkas": "Buku Kecamatan Marawola Barat Dalam Angka 2026 merupakan publikasi tahunan yang menyajikan data yang berasal dari Dinas/Instansi dan Kepala Desa serta data primer yang dikumpulkan secara langsung di lapangan. Publikasi ini merupakan lanjutan dari publikasi tah",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADLu1Ms9BEResUjleasyTAva59AD7mWfhEMMoqJfOfU8rsGpT_3YBOq7Z_ohEgN99I8nFoYXyTvQKaOlXzrZqLAxZPUAV3jUR5w2zhrjKnajV1zWyQOWJXSQrfB_HKhlj-VTO80xwZKilWaxOqUc47r0GrtRIM8Ha3711rtKwOQm1wDw2zNHUGXy28Hj2_Nm3-eos8EWUYf5cOocKuBLoZa1f0QPyoOmjfTC6lnd6-zBfm1uKpVYqXYTh51XzkkSRVzCowMeB3FtULFmL4cYXxmSucnpk72hT_9Z_SBmKyGP3ibkjvv43rHvF6V-QgHABg_7JR",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADsMUGZI_PTFYzxBggvTmqALm-jXcI3d8K2P0OFTP7A_5kttKdJTpz64255DuN3sHy0e1X-PGoCVAHXrxzIP_s2SgOvjxdR5upSi8fzKLU2JYnalDNr3r164nIOtDs7hxx2H8QMXNeTkZrJhOSaBU2-M9Bmtbz5572rVUqetMpBfSn9jSR7OYzt-jAgxrgZcAuxXvrXffzlOKj6oHBdrFFusUpxTkdt8KYto9T_1zCFoiuSGt4CKeM30ngzxZhxGdFXFGWDIFX_L0FObeld1Xxylzr_aTYeFWatEcHaCFPUK2FBoqTxRHIIsOtBwM8-OK5-8fFkVLt",
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADHJTMCLPtVaDM7NRnX940CmHI53M9oIKKzrmM3tPPtOiAa1V9r45Njr4YaFTjzfJi9dZ8blYQs4WQyn4TiwBNQiknRbXrDi-OFTfB9Fn-MZ3EvzV5MtzB5VzGIUGwjZAK6QR_503OYUCFNRi0n9NOo_D0wy8aFrSr06KJD6XIzVQaD9zxnQ6GDIc2Pd_B8Z3xdbDJ5GGsG-vTogIJuZwb_I4A0ZnjPlvqJ1FJreN4IjOotjoqhHO2kTjQ4UR_Z51_WZRfrrk1ilZpqiU6KgcSd_gT5HxKUNtfyNxP5mybrnZ18blvl_B3sWXjiHYBFzZbApb2",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADhfeTWk_l7RGWBBgVggKam9p-0cJhp9bjUD_zj6RmZZoyt522OkeI0Hd2Q3MTXauHyiOmZZkCmATHUvaPofT4xa56-R1zIFTQ1wwyi1Sj31Vj3kaO8QjxhjtaI7rxP-o4lpNUZsTDwR4I6cRf_PV93bJfEBoImSP851bxFqMYJolpnBuEVXsyCxItdPLVmCme_BjpgSxR_VkY1ytXqMMX9aKCX304KE5Y_ZBMnmMLkEIptsPwBvdyXFW6L5rhoS4JNMiaZCAlWaL2VSF_BtM2e-m6O2G2zrCvMQN8x3EGjPfAGAuhR4Qtf52JQhP9C8qqx_4EYrN0",
         "ukuran": "3.91 MB"
       },
       {
         "judul": "Kecamatan Marawola Dalam Angka 2026",
         "tanggal": "2026-09-28",
         "ringkas": "Buku Kecamatan Marawola Dalam Angka 2026 merupakan publikasi tahunan yang menyajikan data yang berasal dari Dinas/Instansi dan Kepala Desa serta data primer yang dikumpulkan secara langsung di lapangan. Publikasi ini merupakan lanjutan dari publikasi tahun seb",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADvnUFBB24uCZlENmzfKv_fM2ARjOfVPeoYZLCf7UXfNYGGhf_JY52kgO0Zuz5TL9spwO1IrR5wUuFnCGesqszl6SQuZNRVihDvBC-ZRI3vD98fLoIcYqlHRFrT1fnFdT-ZeQ-nVaIjPnT5aXljUQ1YeKlTLg0wX2sex5pWD4knlMREzNsSoaVO2LNbKUGWuHgN_L5ueY-y4FsjC9OPP70LFdGRvNAhbcaS8VOiVyhrIYHVAXSP9diwAwcEVZsxCSPDG0SgWXIrBquMidMYenpNGvNDhN-EKPctbqUm8mR8RiD0Gtxf_Ao-7L_v48q",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADKPbH1CcV-zndGfZktHA4Fzj5l28spZ5aoDpdYG3K1U9Us9oJZxqnPL2JRllCHoLEvVE5DXWiEENAriVFvmiDeh521wBc9OxJlCLJeIvMahfsCMegpPljdzdFbfMPjVkOhV3Q7wRMv22_lijJ5__rI12mrmPxSDWCwnwLpsXJFWjHMkGqm0MXgG1ns0BfwyEkGlEAqsAFZZM-Kolma__yt6Xp44dacTqYawMsIlzNo2xosfvBXmap2civ7bKu_K0-9GQ4bRcFAbWUNU4GzQbb0EgMhxDPAk-f01pyb8OCu7xriTYsYC_nBUxEEFUtsXz4",
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADdjMQ7R4RAP8GGtKmV5cgj8Ruwpz_GxtNjVYF9ONhIXiYV38yDmdm_rLf83Q4-Hzj74_jf-SihhUjhjJ3Fm7NYptXe-BIjk_y5ukJUcZ4itpBR8yjA3EW9MRmpPcTClSZPKRTq60vPph21kiCUdOS2bJowsQwy6qxgr8nDP0cuBBD7myB67VS3cXyKuiGJEFHo0TBHnkkb7xi6if-yhrAhRb_UT_1Xd-neaKE7eqvwD8WhQsv5BGi72hfLNgkVnKUkTQ4vgSDNUqYZUu3fc5bT586U_ygJnEfG0UmX5IV-GHbEKbbpeGz3AR7E6e1",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAD4SDIMQqDvTjLQMjmS_hgw-dYHiH444h-qBslGP_-9F5YKECCT00qS6HpxxzIGEmcnAeLAquL1DdQPn9M8am2sTZiuqfolIUKiaMrIkyGko41OM5TkFXdAtFVXlxcai5Qy87kMVTB2xBM8PY3oJsCMFQ43uoQ9Pm-T3Ebe8HEnmu1qPFg5AIIzav3rsX1w6i2JXxWjp2FJIfhMJhtrFEFY12HF3SLx1TULRMbKubFE7rB-aMo9KEX1JfDud1RvABPHta244zMAovnyfdI-Lt_G2OfUDb_gvOor7TOboc0fsKqZkHZ07v52ooYsg5u59rP",
         "ukuran": "4.55 MB"
       },
       {
         "judul": "Kecamatan Sigi Kota Dalam Angka 2026",
         "tanggal": "2026-09-28",
         "ringkas": "Buku Kecamatan Sigi Kota Dalam Angka 2026 merupakan publikasi tahunan yang menyajikan data yang berasal dari Dinas/Instansi dan Kepala Desa serta data primer yang dikumpulkan secara langsung di lapangan. Publikasi ini merupakan lanjutan dari publikasi tahun se",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADfb0XALN-HzoyUR4Yr5PIpKcs_cQr2UudVgC8d1ZRn11-HaBp2vA54neGnGz_tBQgwYqOLgF-RLruFaOXEd2HRC3iSKzpoLy5ny3Ug9g4i2IYfNYAOWFnS5larLKYzdauY7VCnE2auUN-SLQYrpULpIDnA0z_fn_alUFJfwvaOuEOCsbDbci_6S3jt_spqFhcPK_Q_N3U4AHQGScegfNL9nHA2zYpxKUYxxUgcNwN7UD6IU1x3PrkaLWM41lkSWf_Tx_B2IjLijFFqRMSYlNxt9EfYWPF5dN4PYQgvzi1C3x8ON0NgxYHaLMiX2UJHA",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADoLNLEg4axxlxY9oskC7oyC58yhwVTCfRM4F669VRJKJONNRLhIN567sf_I2U7j9YMx5urkpiFr86aUj1-6OVlkdsrsGFeJekekDPG7Eu28PYA9WcG1q92jsblL9xxy8nUKOKiaFWcseQXXbqg2jWFo4_DUylxU2P0Zs2OF0Li1sUtSgjskTYRXy1Zon8Fx3j0pKful_LoL2iWDTrQjDRsd-VagUBB3B-rv9D0YHVEPn5H_TW4IUSWWEw-RftEKkXUmLRT8fcFMuKS6_WAygsTop0-6GDMMtU1KtMtntZFmvDPKpwkkAHUkvgef3g5Z117g",
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADTu6pF0TWdT23kwKlwwAJiYXCUxIX50FGn4L7KCzYYYTrrSvB1bcvgOjLPmuxoLSmIXScF9zPNrVMwiEaUv7QZ08wYNLB7tylYICDd_wlXOjUVm_PjrwsTyjDgLCm6rT0L2mg6ueJw3EFDCA_WQsPsN_AKldsR91aBnQhNIj8sVsLhRTwhQkJTLBC7_IdHgXisTgEIKv1Ivh7EBwJ_ahY1_QDxBQqCqAXXO3F8KrEJODPELe-haqaAaqwWnfHTZ5zdb3sONRRgNpSEmbtkOuIUZUebnMj_mjMIL34TvHhfHz9inGCosua4LjOnJy0qg",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADLRJxoNU49fy8FUwKSoIUhERsMJFDkm1UaTxkwFIwvOzrUQOUE3gasGekzDwK20dVrtEjwrnROgzAPWPed9p3XaoDI57X5lYgtmZZmcgq9YBHprG5RxLad4BLHd7hy8u0_4WPR5KxEUozGzVmln_3ptHQ8etzKSIEaFtK3T9cG2zHMdB7WAAxviorCwJEZqKqYdExhowrqhkun14KRKReZj1U_-vud1PBUuGk_CPCgZKz9SDk8FzsPbC2smZv8oU06NRXi2kiEQ7CkYC_h5lTuDR-43aqBNvXTGNt--9cM1DWDKHUob5YJaapFt9mlmuphA",
         "ukuran": "3.82 MB"
       },
       {
         "judul": "Kecamatan Sigi Biromaru Dalam Angka 2026",
         "tanggal": "2026-09-28",
         "ringkas": "Buku Kecamatan Sigi Biromaru Dalam Angka 2026 merupakan publikasi tahunan yang menyajikan data yang berasal dari Dinas/Instansi dan Kepala Desa serta data primer yang dikumpulkan secara langsung di lapangan. Publikasi ini merupakan lanjutan dari publikasi tahu",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADfkeEZlTaqlRCVzRLyS8ULQU_Nw6n-Ymj7U7nRS0XMwrgdC6PLi7BH7zUp8sWRPT05bwEu06tZR5pVa8y_snBF10avQ7UFmrhhCXeCQTYi-6SZMxO_V0ADN2ehOsZ1EBOmZz-3RU9_i5jIuXgWyXYnb4ouSqBlNAonjlVkc7mRc72AQtoufBAWtoRhkvL_0oDKUflnpPvYHFjy-Vnzj9Z39HFfiYzagCCnfoDgGmE7rp4wDHBI4Fa5NG-K9folNFIoEwJPflWxw_h0mjk8ZwDRhVE_RdfyNbKIJ_Qjmni4OJVs-iytj4g73e8AmeHl8p5Q5s",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADZbLw5PpJdtaTu2BT24kjXwe9sHIqvHS7AMZsURys2TjG0qJJEfo8IwUr96KjfaurofcPV_Xgh0P-ioLE5sAM-XfCRhgz2WWSuH3RqTQrNokHwxSNTzDXA3FljDfEyOSf3Gesdp8B6-p55iy0u9T2VLwQ0ZThlvofGoyl-kR5aD5RiO6T8UxAbyBq8MrkSC8sAP0csBubHVqUvnAYwlIB3wuviJ9rENZLV8G6UdBi86mDlOiGXND45Zo6Rbc6gpNHjTmJlFBC2wQyo-2RMO9GSzI6476V7QrWTe_44CvjTP4toeFIszKHqb-THD8ZG1StJ572GG4",
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADsR3Gw8xzzoH0CX5vgXjBc9PeI0UrPh8xo4asDCZNDizK3Zke9JlXcc1VagqlK24Nn6yl3-Qboh9XUI11TOaqhlXZnR5JJrS6NeC6hU9s-xwqHUwStlB1bVIiDA48qMXLrCTxE3pzRkFlNYTJH9rlpiPyoIJMk2h1RWv13LAaVUBHAZxSPHHpKPvOD6cZrOE7Wx0PvBId5l_mv6Azr15y3yt0w8h_dVpnHpWzdXFnCddlosoEAG_YDIORf3crehqtzhgWWUz5wzeBOnX6veimp3YEWFAJr9ZYKklmyd0TW-JcRmq5FoCokvK2ZfzmRcpnHiA",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAD4LjTTncresDYqmHZB7ExTZkvT5n1697DPHY9ugbxO7oRUCacw8jRlT1yXmXbVVErooI3LG3Gt9KwQJbUNxQgUM-Fr7MWliPFqxUECJ1dJGcBHmFbDSDT77n2BxU_SUImF3gIx9LJzWYnzNqVufNA9-6PArpyGwYzLZpi6t980cmwZ-dTR_vbK0TDtCMmPxKxABPx32SYyvo9EFoVQT5YvjyXQsfmPfZ718ffh8RnxFvja3-KYqmKotL-uSRJrE2SQ0I0J6tqOpVjbLAfPw2e1JXS6v1eHws8YNzkQS2FevKMUKXJntUKbMz9E9kHl3pTDdvZmhs",
         "ukuran": "4.60 MB"
       },
       {
         "judul": "Kecamatan Dolo Dalam Angka 2026",
         "tanggal": "2026-09-28",
         "ringkas": "Buku Kecamatan Dolo Dalam Angka 2026 merupakan publikasi tahunan yang menyajikan data yang berasal dari Dinas/Instansi dan Kepala Desa serta data primer yang dikumpulkan secara langsung di lapangan. Publikasi ini merupakan lanjutan dari publikasi tahun sebelum",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQADpMfXmfGnyi23D6EHDwXcidNm7yLvNhe4Q9395Lv6rHFGCz-aU7Q6gjEsAWz8QwmGmMNDNUcAvrCpkeW5Yt5zhzjjwOaMTeLBags3y3Qa_7o6bB_D94rWtqwqksySJV_kUSHlst_Lj3JyuL51IZcrKnk_QQUM5uSpW3PKfBB1-HofJ_ieH8vUwCAdEeuwBPeABxvFX4X4VBFdlm9pa593SLqvfqb-FLK6qt7AcMrTuWDHzk-lTu6HvQ9c4wEJ6UdOoZh_PggdiQ9pNnrpLpRe6eZ-aCNOyHgUqWkRfOKnV7YMSbqme1rouCc",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADXNRb1f8FSpwp17rtBRHOHo0l9R4FD94q76HSz_LZG4ub5Z9pwWEMKb6HoC7koTD2IJwWEv33F5_MUkxVQCoeqi-ftjrSXYf-PKSkGeXbUPGJzkWZv6pKzL_dox05ITp5SBnGk8HSBNnLJjWzhimOhi9Qjk1n4GxZ_dPUNmnd03FMG6Bx1gpjhAgEX0Id_VO1se1I3g38j3_-CJRpVb7o47Gvs2_Jai63_sD1Gl4BaEfbEzNHqxKhOHl9qLmgHEmjEq_-O8IFYfAJTQGXV2twRv6gHHouQlq6lXbyPGKQ3o2jd9ve3pUPH2vQf-s",
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQADx0hE_DhyRhrg8HufgWCQJXKYg94F6u9xk_ODwrYAT-5Xpn-NgzDegW9_580LR6rud_QbH5NTauC4bQhnlZDlQ5R5ifTf0Nl09PGYcvnAN_t7jVw33DppIeAvu41R89ZqmWtlGqg8ofZR7hRuOFhRgn4mEjFnu2ABjrf-pBYQs3KTSjZELlVkVMfa59r8wuZe5XuUXqhUbM1wS8G12LM_8L3Pyv6sJKzSna8EqQf_00uQk1BRn-BX5OjdGyw6Mgyf8YLlpGRutokKdxzRuLNA7yBSrHpGNzal_SZwwTExiM4rmSiF57kTPZ0",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQADPS2e7FHPCvTy_HV3OpKlb5cjDp8ihbGmxikAwGn2IhBvDGyXywbXpLO2qxunVOnhmi9k4hyAPj61FE36Q4AQZxx66NNboSMntevOu7to7aOA4eAVXX0uTNz2RwOljZY_xAMXPOaRZmOodWDJD7moaqMF9NA-vfU2LqvbfR6Xe3XO9OskIjdajM2Q1H-n6pl0YkX4aHOGn07aSQ1rFAt2JC_AGpCBjiCnVvYLE8pJ-quRKqdSuN0KT5hVPJby8Cfp4COAmo_k-4dFEAUr-k5PhZvBqw7AeBkUykCYbiKkjanxD0zAIP_5f5Iz2xU",
         "ukuran": "3.80 MB"
       }
     ],
@@ -1588,57 +1588,57 @@ const DATA = {
         "judul": "Indeks Pembangunan Manusia (IPM) Kabupaten Sigi tahun 2025 mencapai 71,68, meningkat 0,78 (1)2026-04-06",
         "tanggal": "2026-04-06",
         "ringkas": "Pembangunan manusia di Kabupaten Sigi terus mengalami kemajuan. Status pembangunan manusia di Kabupaten Sigi sudah berada di level “tinggi”. Selama 2022–2025, IPM Kabupaten Sigi terus mengalami peningkatan setiap tahunnya, dari 69,40 pada tahun 2022 menjadi 71",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQAB9-iXvs7aQmtxqSgB09fBOWVebbuqa41a3aL4QfN202De_PK7rNxIWkt7KPuYoHe815hyb0F8U3qauP4VKRIs3a8IUPBgcjRJx0X_WrX1z11bIoE9rLhf_t9mrYBsUbuR_AyrUSztKq-0o5ZEYB4Rs5L99mqOxRJWjSdN4D3i3lo_eZYWwB23G9Yy6IrJFAvINj38MxAQmmM_HoYnOJrkSxkPjkbfK4jL4egfQ_xkUwzX7VJyrdaiexq7wczL9PPPK5xI6ZFxZ--cJ0S8xJz18NCpHQKXfvhIGBtTs5g7BZoUQ8TWc9HymBiCHz4GFHgKl42m2noKoNoNfzqzEOlNmI685q0-jw",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAB9-iXvs7aQmtxqSgB09fBOWVebbuqa41a3aL4QfN202De_PK7rNxIWkt7KPuYoHe815hyb0F8U3qauP4VKRIs3a8IUPBgcjRJx0X_WrX1z11bIoE9rLhf_t9mrYBsUbuR_AyrUSztKq-0o5ZEYB4Rs5L99mqOxRJWjSdN4D3i3lo_eZYWwB23G9Yy6IrJFAvINj38MxAQmmM_HoYnOJrkSxkPjkbfK4jL4egfQ_xkUwzX7VJyrdaiexq7wczL9PPPK5xI6ZFxZ--cJ0S8xJz18NCpHQKXfvhIGBtTs5g7BZoUQ8TWc9HymBiCHz4GFHgKl42m2noKoNoNfzqzEOlNmI685q0-jw"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQAByypee4XK065NH7p6_brUFZV6iHeaJEYGEbts8THWeDOwsTPpG7txzSyEBNZci67uuMOB_w4wLIi3GSNsf86RP4T-eprE2uG19wwdytBPm3-0qvKEpQ71ld-AVhyGeBA3Eh6Wbp_k1v2gAs_aVXveLboh0KmTmZaInL1oM8YaLCBjs2okb9Kc54259oQcvvQXAKZ354K1QdZuhgNwLB3rszLrkBfAKCEMsKUG6XbVohMMoZ0D6oHZqvy1wH4RTFN7mYv_eTjI5JKvG_Ug2uVdhADjMGZslYkW4Y9660S0bn_HW06DqGRIlEt56CYbUMN-ARxNwOk6kroZn_xfKLyS3yIpoPC27Q",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAByypee4XK065NH7p6_brUFZV6iHeaJEYGEbts8THWeDOwsTPpG7txzSyEBNZci67uuMOB_w4wLIi3GSNsf86RP4T-eprE2uG19wwdytBPm3-0qvKEpQ71ld-AVhyGeBA3Eh6Wbp_k1v2gAs_aVXveLboh0KmTmZaInL1oM8YaLCBjs2okb9Kc54259oQcvvQXAKZ354K1QdZuhgNwLB3rszLrkBfAKCEMsKUG6XbVohMMoZ0D6oHZqvy1wH4RTFN7mYv_eTjI5JKvG_Ug2uVdhADjMGZslYkW4Y9660S0bn_HW06DqGRIlEt56CYbUMN-ARxNwOk6kroZn_xfKLyS3yIpoPC27Q"
       },
       {
         "judul": "Profil Kemiskinan di Kabupaten Sigi 2025(1)2026-03-06",
         "tanggal": "2026-03-06",
         "ringkas": "Pada tahun 2025, jumlah penduduk miskin di Kabupaten Sigi berjumlah 26,03 ribu orang (10,47 persen dari total penduduk). Secara persentase, persentase penduduk miskin di kabupaten Sigi Tahun 2025 (10,47 persen) menurun dibandingkan dengan tahun 2024 (12,06 per",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQABPDnYb5rezcyUAGc2YdxJRjQIfLaXlDEVhF2yySR1QpiqIuo93pK8W7nX0zEOrfu5cbqggnsdSgLpNrUEbTI2RUq7t2hks2GyMdnuVRCpbhrlir4MwYIBcRIN6D0CycEWa6J59ApeD-mstjo16AQu9Q62w2V8_7dxN1N668NmfhYLmrwfAWOGWlP-EuavxwA6BOnPqCxg8WiPnyqyxT7UmDHriQb9eTv-jJH_cEjl_Vii1vA-DQP4AUzk_CeyobzBAycgzQ4-EiBohE1guK88QFol8qRYq50",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABPDnYb5rezcyUAGc2YdxJRjQIfLaXlDEVhF2yySR1QpiqIuo93pK8W7nX0zEOrfu5cbqggnsdSgLpNrUEbTI2RUq7t2hks2GyMdnuVRCpbhrlir4MwYIBcRIN6D0CycEWa6J59ApeD-mstjo16AQu9Q62w2V8_7dxN1N668NmfhYLmrwfAWOGWlP-EuavxwA6BOnPqCxg8WiPnyqyxT7UmDHriQb9eTv-jJH_cEjl_Vii1vA-DQP4AUzk_CeyobzBAycgzQ4-EiBohE1guK88QFol8qRYq50"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQABnP_L8bqJt-blbTGe5BS08LG5tOpoPSh0sQgFAAO9R4KxTbCcHwAUJ3Dt3SkeWzXaNMCLew9of3OtVwZAdVlXmFNJ-NoOb4t8ADBXfi9K5vGCiTPUdKqwN04sZmCYK8ARC1KTwFuoE5j1suRHLAg_e2Wy-kIaN3Q_PW23qZzCF-fmJaxF9gFaHzU_rqtAFKQ73RueLfeBd7MeA7TCYVXcKMG8-Bui_NV4ei9LQbOTmmEoIC1HF4qjfuDrHqFlaUXvUO35V-PIiWWswDkM0tm-Ghqoeya-QHk",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABnP_L8bqJt-blbTGe5BS08LG5tOpoPSh0sQgFAAO9R4KxTbCcHwAUJ3Dt3SkeWzXaNMCLew9of3OtVwZAdVlXmFNJ-NoOb4t8ADBXfi9K5vGCiTPUdKqwN04sZmCYK8ARC1KTwFuoE5j1suRHLAg_e2Wy-kIaN3Q_PW23qZzCF-fmJaxF9gFaHzU_rqtAFKQ73RueLfeBd7MeA7TCYVXcKMG8-Bui_NV4ei9LQbOTmmEoIC1HF4qjfuDrHqFlaUXvUO35V-PIiWWswDkM0tm-Ghqoeya-QHk"
       },
       {
         "judul": "Profil Kemiskinan di Kabupaten Sigi 2024(1)2026-03-06",
         "tanggal": "2026-03-06",
         "ringkas": "Pada tahun 2024, jumlah penduduk miskin di Kabupaten Sigi berjumlah 29,80 ribu orang (12,06 persen dari total penduduk). Secara persentase, persentase penduduk miskin di kabupaten Sigi Tahun 2024 (12,06 persen) menurun dibandingkan dengan tahun 2023 (12,83 per",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQABVT_Mcena7eZvG7aalVwnIE5FbICCnLUwlkD40QVL9Up8nRnIOEfHzISXPQMKkilDPuBi6yawhtntB9ugGX1vR0cMSN1brYcdMu0dNGgAd0TyjcMDE8lKpkBl9_iPWZ_vgJfgeNYkxFlab4sJ3vOu82JpFW6XltvEFr4-G-aqMEarbnORXDkCBfLl66oqkuuyDEwktPe-bD_4bxepn16cDJAAWdMMQiwbIB7lwxIYEDJ-jCvDnJB-QTl38cA4xzb9cN6xJ_QPRVE6uQHfqqb1lFrtLdU4Apo",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABVT_Mcena7eZvG7aalVwnIE5FbICCnLUwlkD40QVL9Up8nRnIOEfHzISXPQMKkilDPuBi6yawhtntB9ugGX1vR0cMSN1brYcdMu0dNGgAd0TyjcMDE8lKpkBl9_iPWZ_vgJfgeNYkxFlab4sJ3vOu82JpFW6XltvEFr4-G-aqMEarbnORXDkCBfLl66oqkuuyDEwktPe-bD_4bxepn16cDJAAWdMMQiwbIB7lwxIYEDJ-jCvDnJB-QTl38cA4xzb9cN6xJ_QPRVE6uQHfqqb1lFrtLdU4Apo"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQABfJckM5-W3Dn3j5S2_QhY7ktaXL8UF-6mVDnNfBU1VexTDN8WvxOwCmusTBd2KXewNSwKHUqyVnLCMWnXaYv2pFdzkqabtkd6Dw3TAOfu4lenUINHBP16o2Wcf3TmxxcgUxTJNkSk0jDEk1bgGxE6RngX8xLwVD5FVZL2hc4YMjUDRYori3LR092ZtklhNY3XOdxwgT_y51RmO0gRGnidulf9ibh07Fmmvsi0MwfDb7ReouGDYGAVePDG7ji8RX3lDlgRFLVrqSmHQBqpUapdGHhlKQ_gmVk",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABfJckM5-W3Dn3j5S2_QhY7ktaXL8UF-6mVDnNfBU1VexTDN8WvxOwCmusTBd2KXewNSwKHUqyVnLCMWnXaYv2pFdzkqabtkd6Dw3TAOfu4lenUINHBP16o2Wcf3TmxxcgUxTJNkSk0jDEk1bgGxE6RngX8xLwVD5FVZL2hc4YMjUDRYori3LR092ZtklhNY3XOdxwgT_y51RmO0gRGnidulf9ibh07Fmmvsi0MwfDb7ReouGDYGAVePDG7ji8RX3lDlgRFLVrqSmHQBqpUapdGHhlKQ_gmVk"
       },
       {
         "judul": "Ekonomi Kabupaten Sigi Tahun 2024 tumbuh 3,50 persen(1)2026-02-10",
         "tanggal": "2026-02-10",
         "ringkas": "Ekonomi Kabupaten Sigi tahun 2024 tumbuh sebesar 3,50 persen. Dari sisi produksi, pertumbuhan tertinggi terjadi pada Lapangan Usaha Transportasi dan Pergudangan mengalami pertumbuhan tertinggi sebesar 12,92 persen. Sementara dari sisi pengeluaran, pertumbuhan ",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQABmJmkMi1kIGhN0GKJid1jYcEqIe6FErL64QP03mZUjwunT9YamsEfeDQwImatLyPXaKwZaHjRD2LYmdJN8VtLCvjO8wngkqnxHib964A3IdsXImu1SDu_fgp8qu2ZmY-dA-ppoOMaZ4zmxWsRzdWM72rDc8NQHQBsujfB07sGE_c8s3xNBt7MIqvpV1AM_NhETR0nok6YXyCxrnybfSPhGiq2SoGbPelQjVDegEQPeljBjpeLdMtLBIld2nqLLF8diCXawA2vVJsxwDndUYxcsSdU2_U3jKLIdFvWstoEMXOnrA",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABmJmkMi1kIGhN0GKJid1jYcEqIe6FErL64QP03mZUjwunT9YamsEfeDQwImatLyPXaKwZaHjRD2LYmdJN8VtLCvjO8wngkqnxHib964A3IdsXImu1SDu_fgp8qu2ZmY-dA-ppoOMaZ4zmxWsRzdWM72rDc8NQHQBsujfB07sGE_c8s3xNBt7MIqvpV1AM_NhETR0nok6YXyCxrnybfSPhGiq2SoGbPelQjVDegEQPeljBjpeLdMtLBIld2nqLLF8diCXawA2vVJsxwDndUYxcsSdU2_U3jKLIdFvWstoEMXOnrA"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQABCmMe09ZchDG6J6vXs65vPHxbdmArNFIJR2_XBm0Xbpvf2ltaz_EWwz03EUIHJKtKOAQaDqITCMTBTpRiwEwTlID_fBfrTseHN2DtCjFaIa6-ieUCsCYMkmIE3CbamqzWwBdxa_EPkw5iXo4qkytVr_08TZh5_hOBqVdFUYlWI1fno0TrFFJI85WCEt9u7pAuljbxhNyugXsz1HbyjWba0kW8ISk3H2qozMeJDLTMxYCT4BGL6Sc3LUKTlpf4nAcjYCuxXU1k4mE7t9L82q03eD0dm8MqxaEM5gnlTSTGH242Ow",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABCmMe09ZchDG6J6vXs65vPHxbdmArNFIJR2_XBm0Xbpvf2ltaz_EWwz03EUIHJKtKOAQaDqITCMTBTpRiwEwTlID_fBfrTseHN2DtCjFaIa6-ieUCsCYMkmIE3CbamqzWwBdxa_EPkw5iXo4qkytVr_08TZh5_hOBqVdFUYlWI1fno0TrFFJI85WCEt9u7pAuljbxhNyugXsz1HbyjWba0kW8ISk3H2qozMeJDLTMxYCT4BGL6Sc3LUKTlpf4nAcjYCuxXU1k4mE7t9L82q03eD0dm8MqxaEM5gnlTSTGH242Ow"
       },
       {
         "judul": "Indeks Pembangunan Manusia (IPM) Kabupaten Sigi tahun 2023 mencapai 70,28, meningkat 0,88 (1)2026-02-10",
         "tanggal": "2026-02-10",
         "ringkas": "Pembangunan manusia di Kabupaten Sigi terus mengalami kemajuan. Status pembangunan manusia di Kabupaten Sigi sudah berada di level “tinggi”. Selama 2020–2023, IPM Kabupaten Sigi terus mengalami peningkatan setiap tahunnya, dari 68,48 pada tahun 2020 menjadi 70",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQAB2ZSNkmyij_xzp9GWNnwLnNaxB1cwYo6ZkjA2U4ny8eqvhpD_KqjW6jcYCEYjKsp6F7tYHW748y_n65ZEWeeFbdg0Lj17j2N45P8ocfJlTNomU-edRLBe2VF8Bqe7RgmzxQQGHwK5djlyZEDyu0KRlB-u7FOpoJn9WSEW7OEqPGZGSsrCiWvgFwaQGUtz_uVseq6Hxekb75qGY8E2-ep7FwGSGN0QHB8k2cjbfE34X6JIWioflfcrlHYYiXh-Muo5xqzKb_o7gihNsnn44pdfRNZBNKWkI1FgscXyH-9K5jTEMwjzX7UjkNCUBAIi37He5ka__hOSeAGhFNyO7UdX2WEtnQJGdw",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAB2ZSNkmyij_xzp9GWNnwLnNaxB1cwYo6ZkjA2U4ny8eqvhpD_KqjW6jcYCEYjKsp6F7tYHW748y_n65ZEWeeFbdg0Lj17j2N45P8ocfJlTNomU-edRLBe2VF8Bqe7RgmzxQQGHwK5djlyZEDyu0KRlB-u7FOpoJn9WSEW7OEqPGZGSsrCiWvgFwaQGUtz_uVseq6Hxekb75qGY8E2-ep7FwGSGN0QHB8k2cjbfE34X6JIWioflfcrlHYYiXh-Muo5xqzKb_o7gihNsnn44pdfRNZBNKWkI1FgscXyH-9K5jTEMwjzX7UjkNCUBAIi37He5ka__hOSeAGhFNyO7UdX2WEtnQJGdw"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQABcVhHkDt34ju7ve_mnU-jNYJTYqvnWDGWtQVq6In0lBeBwCmiFxEpZcbY6joNGg3TRUBV-jbdA6YImMqylyNtlZAKmRBmOf4vWydg5LTqQZMYwAXCX4rTfSoA3MOv6p_Gs7S9iGQ1XUk__2VoSGAtWhkd2IyiEM0YbGsX9OPIHhS-_u_Hz-lVpl_SGm5BMoe0myN10UEWDyxwqRnamif63Rj6wlnXuDzVoQsjvoJfhwIPVN7MYpQlsHYGfdNAIkofCFiuikn40ep2fWvnPAgjdQ71rTJ-CxS40QwvViqERf8AuKuKsjKPkXuItrWm5qhI89L6AqwkbaGhmsOyho3mXdgg9gVKbw",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABcVhHkDt34ju7ve_mnU-jNYJTYqvnWDGWtQVq6In0lBeBwCmiFxEpZcbY6joNGg3TRUBV-jbdA6YImMqylyNtlZAKmRBmOf4vWydg5LTqQZMYwAXCX4rTfSoA3MOv6p_Gs7S9iGQ1XUk__2VoSGAtWhkd2IyiEM0YbGsX9OPIHhS-_u_Hz-lVpl_SGm5BMoe0myN10UEWDyxwqRnamif63Rj6wlnXuDzVoQsjvoJfhwIPVN7MYpQlsHYGfdNAIkofCFiuikn40ep2fWvnPAgjdQ71rTJ-CxS40QwvViqERf8AuKuKsjKPkXuItrWm5qhI89L6AqwkbaGhmsOyho3mXdgg9gVKbw"
       },
       {
         "judul": "Poster Luas Panen",
         "tanggal": null,
         "ringkas": "",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQABRIoDcCkZEdzydEhLWZm8XdAAGtgXjBWbUT8IGt1MYyXAUyvEa04LzvxdFXWCHzIEn_ZE9OLcvpqRh0bIMJ9EMwTXFjCw3Tk0MNeea6D7niuXKXfZoMQWLiVAvVl2HGxc-kRnN4qItsJQ0RV1LaYxHk055KpaeCz0wT7TeKcNn4jFY9DKdI3HUselbSv9Dxr91ub4vor4MqmD_w",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABRIoDcCkZEdzydEhLWZm8XdAAGtgXjBWbUT8IGt1MYyXAUyvEa04LzvxdFXWCHzIEn_ZE9OLcvpqRh0bIMJ9EMwTXFjCw3Tk0MNeea6D7niuXKXfZoMQWLiVAvVl2HGxc-kRnN4qItsJQ0RV1LaYxHk055KpaeCz0wT7TeKcNn4jFY9DKdI3HUselbSv9Dxr91ub4vor4MqmD_w"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQABUFt0b0y2E5RmlguWNsNrXkkKjZQhO3PHTlt9jeqZ1htPP8SPjrWC77PyZwJHLYFtSVW43_hdbtMf4OP9szSFM3t48n7GAf--n0bBObaPW4gtMFT3LE_ytgaap8InyrVEI0IKCW8wQtjBdzrTJjIS1BI8AYnun8BDlbrXva86tnUFEVbiyhxBueWWb2TtsbUYfoa2e6QrkHMGRA",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABUFt0b0y2E5RmlguWNsNrXkkKjZQhO3PHTlt9jeqZ1htPP8SPjrWC77PyZwJHLYFtSVW43_hdbtMf4OP9szSFM3t48n7GAf--n0bBObaPW4gtMFT3LE_ytgaap8InyrVEI0IKCW8wQtjBdzrTJjIS1BI8AYnun8BDlbrXva86tnUFEVbiyhxBueWWb2TtsbUYfoa2e6QrkHMGRA"
       },
       {
         "judul": "Potret Pendidikan",
         "tanggal": null,
         "ringkas": "",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQABmBN8MHEn9H5b3h4IKz7QBja0BmUiNNj4H4h0vRgj5ddwFH9xKAKHWK5_DQJkJifkiswldeHtdOgRvhfgqQNj-rjVvT-S827l48a-fvyiaTh83fFyiOuWO2YreI8KCKSh9864qOug4wDSQrElBkWR6bDDpY7cZo9GuEdElhXbwk0kn971DtxkrNYk5kJEGJICXdOPC4WploDzHw",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABmBN8MHEn9H5b3h4IKz7QBja0BmUiNNj4H4h0vRgj5ddwFH9xKAKHWK5_DQJkJifkiswldeHtdOgRvhfgqQNj-rjVvT-S827l48a-fvyiaTh83fFyiOuWO2YreI8KCKSh9864qOug4wDSQrElBkWR6bDDpY7cZo9GuEdElhXbwk0kn971DtxkrNYk5kJEGJICXdOPC4WploDzHw"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQABd62h4wnsnq6cNi-D-X_6u6lfzU7gGB1-3P4FenMIxNvO2SYWzDXLgRzRrHyBbknDzroJV1EJlKTVSnLjPZHOA4fNSfwh4BBED0JZHvQ48wZgmF48LsUnzv0xatByBvpELGOHLXcb79A9xC1Fo6wVscTm6uGD7pwVUQiC0WCxmWyEkN8ybvwSad6kltWN9_pxsCMKlmnNjkKEQw",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABd62h4wnsnq6cNi-D-X_6u6lfzU7gGB1-3P4FenMIxNvO2SYWzDXLgRzRrHyBbknDzroJV1EJlKTVSnLjPZHOA4fNSfwh4BBED0JZHvQ48wZgmF48LsUnzv0xatByBvpELGOHLXcb79A9xC1Fo6wVscTm6uGD7pwVUQiC0WCxmWyEkN8ybvwSad6kltWN9_pxsCMKlmnNjkKEQw"
       },
       {
         "judul": "Poster Garis Kemiskinan",
         "tanggal": null,
         "ringkas": "",
-        "unduh": "https://webapi.bps.go.id/download.php?f=AQABqgyM01QCvMBIKT59b5FSjB13Men37PdzJzh7WhUlvs4Xpq3uhKuF7Dh8esSvlhCxA33vWnhUB8PFnN6IhTp5mVzy1vqo_PuPEwSaAG-bxxgom3nYTJapwuUHs2dE_Gasks19AtBNJxKO_57fmFvFXJW1u2jRxjEpXp_AkifcQ9oNTMDs46t-W594aDw4B_dNpKz3nms9_d6uFCAmMfTJTWszM8faow",
-        "gambar": "https://webapi.bps.go.id/cover.php?f=AQABqgyM01QCvMBIKT59b5FSjB13Men37PdzJzh7WhUlvs4Xpq3uhKuF7Dh8esSvlhCxA33vWnhUB8PFnN6IhTp5mVzy1vqo_PuPEwSaAG-bxxgom3nYTJapwuUHs2dE_Gasks19AtBNJxKO_57fmFvFXJW1u2jRxjEpXp_AkifcQ9oNTMDs46t-W594aDw4B_dNpKz3nms9_d6uFCAmMfTJTWszM8faow"
+        "unduh": "https://webapi.bps.go.id/download.php?f=AQAB28YAO4SmBNCTc1D5Wo3BwWaZcf7RXPZ1dVn2TymquvjCV-fJPIL4S5JMK3-dMHp1Rib3AuUVB5lZbmBvERAhX_NZdXt28UHdAlHm3Lcg4u3hriRBGuz9YlZmOp1Fa3pbVwIM1DXloPeNdXtn_Oe0EaNCTNLQf3BtwcluVYEHPCeZqzXDCMEI8YvGsT_6xh8-2zd3BIR4yuggZpObPGlzKSTbHYiigA",
+        "gambar": "https://webapi.bps.go.id/cover.php?f=AQAB28YAO4SmBNCTc1D5Wo3BwWaZcf7RXPZ1dVn2TymquvjCV-fJPIL4S5JMK3-dMHp1Rib3AuUVB5lZbmBvERAhX_NZdXt28UHdAlHm3Lcg4u3hriRBGuz9YlZmOp1Fa3pbVwIM1DXloPeNdXtn_Oe0EaNCTNLQf3BtwcluVYEHPCeZqzXDCMEI8YvGsT_6xh8-2zd3BIR4yuggZpObPGlzKSTbHYiigA"
       }
     ]
   }
