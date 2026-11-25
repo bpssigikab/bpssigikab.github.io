@@ -1,0 +1,45 @@
+name: Perbarui data dari Web API BPS
+
+# Jalan otomatis tiap Senin pukul 07.00 WITA (Minggu 23.00 UTC),
+# dan bisa dijalankan manual dari tab Actions → "Run workflow".
+on:
+  schedule:
+    - cron: "0 23 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: perbarui-data
+  cancel-in-progress: false
+
+jobs:
+  perbarui:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil isi repositori
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tarik angka terbaru dari Web API BPS
+        env:
+          BPS_API_KEY: ${{ secrets.BPS_API_KEY }}
+        run: python3 scripts/perbarui_data.py
+
+      - name: Simpan perubahan (bila ada angka baru)
+        run: |
+          # abaikan perubahan yang hanya tanggal sinkron
+          if git diff --quiet -I'"terbit":' -I'"sinkron_terakhir":' -I'"pada":' -- assets/data.js; then
+            echo "Tidak ada angka baru. Tidak perlu menyimpan."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data.js
+          git commit -m "Perbarui angka dari Web API BPS ($(date -u +%Y-%m-%d))"
+          git push
