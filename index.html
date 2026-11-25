@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indikator Strategis Kabupaten Sigi</title>
+<meta name="description" content="Dashboard interaktif indikator strategis Kabupaten Sigi: demografi, ketenagakerjaan, PDRB, IPM, kemiskinan, dan pemerataan. Angka ditarik otomatis dari Web API BPS.">
+<meta name="author" content="Disusun dari data BPS Kabupaten Sigi">
+<meta name="theme-color" content="#ED7014">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Indikator Strategis Kabupaten Sigi">
+<meta property="og:description" content="Dashboard interaktif indikator strategis Kabupaten Sigi: PDRB, IPM, kemiskinan, demografi, dan ketenagakerjaan.">
+<meta property="og:locale" content="id_ID">
+<meta property="og:url" content="https://bpssigi.github.io/">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ED7014'/><path d='M22 82V46a28 28 0 0 1 56 0v36M40 82V60a10 10 0 0 1 20 0v22M14 82h72' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+
+<!-- Bilah atas + tema terang/gelap (dipasang sebelum gaya agar tidak berkedip) -->
+<script src="assets/pintar.js" data-situs="indikator"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ============================ NAVBAR ============================ -->
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark">SG</span>
+      <span class="brand__text">
+        <span class="brand__title">Indikator Strategis Sigi</span>
+        <span class="brand__sub">BPS Kabupaten Sigi</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Navigasi utama">
+      <a href="#peta">Peta</a>
+      <a href="#ringkasan">Ringkasan</a>
+      <a href="#ekonomi">Ekonomi</a>
+      <a href="#kependudukan">Penduduk</a>
+      <a href="#manusia">IPM</a>
+      <a href="#kemiskinan">Kemiskinan</a>
+      <a href="#bandingkan">Bandingkan</a>
+      <a href="#rilis">Rilis</a>
+      <a href="#rekomendasi">Rekomendasi</a>
+      <a href="#sumber">Sumber</a>
+    </nav>
+
+    <div class="nav__tools">
+      <button class="icon-btn nav__burger" id="burger" type="button" aria-label="Buka menu"></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <a href="#peta">Peta</a>
+      <a href="#ringkasan">Ringkasan</a>
+  <a href="#ekonomi">Ekonomi</a>
+  <a href="#kependudukan">Kependudukan</a>
+  <a href="#manusia">Pembangunan Manusia</a>
+  <a href="#kemiskinan">Kemiskinan</a>
+  <a href="#bandingkan">Bandingkan</a>
+  <a href="#rilis">Rilis</a>
+      <a href="#rekomendasi">Rekomendasi</a>
+  <a href="#sumber">Sumber</a>
+</div>
+
+<div class="pratinjau" id="spandukPratinjau" hidden>
+  <b>Pratinjau draf.</b> Yang tampil adalah draf dari Ruang Pegawai yang belum diterbitkan — hanya terlihat di peramban ini.
+</div>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero hero--peta" id="top">
+  <div class="hero__deco"><span></span><span></span><span></span></div>
+  <div class="wrap">
+
+    <div class="hero__atas">
+      <span class="eyebrow"><b>BPS</b> Kabupaten Sigi</span>
+      <h1 id="heroJudul">Potret <em>pembangunan daerah</em> Kabupaten Sigi dalam angka</h1>
+      <p class="lede" id="heroLede"></p>
+    </div>
+
+    <!-- Peta interaktif kecamatan (assets/peta.js) -->
+    <div class="petahero" id="peta" aria-label="Peta interaktif kecamatan di Kabupaten Sigi">
+      <div class="petahero__kanvas">
+        <div class="petahero__peta" id="petaSigi" role="application" aria-label="Peta Kabupaten Sigi"></div>
+        <div class="petahero__kontrol">
+          <label class="petahero__lbl" for="petaMetrik">Warnai peta menurut</label>
+          <select id="petaMetrik" class="petahero__pilih"></select>
+          <div class="petahero__legenda" id="petaLegenda"></div>
+        </div>
+        <div class="petahero__dasar" role="group" aria-label="Peta dasar">
+          <button type="button" data-dasar="peta" class="is-active">Peta</button>
+          <button type="button" data-dasar="satelit">Satelit</button>
+        </div>
+        <div class="petahero__gagal" id="petaGagal" hidden>Peta tidak dapat dimuat. Periksa koneksi internet lalu muat ulang halaman.</div>
+      </div>
+      <aside class="petahero__profil" id="profilKec" aria-live="polite"></aside>
+    </div>
+    <p class="petahero__catatan" id="petaCatatanKec"></p>
+
+    <div class="hero__bawah">
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#ringkasan">
+          Lihat semua indikator
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="#rilis">Rilis BPS terbaru</a>
+        <button class="btn btn--ghost" type="button" data-unduh-csv>Unduh data (CSV)</button>
+      </div>
+
+      <aside class="hero__panel">
+        <h3>Periode data</h3>
+        <p class="period-note"><span class="js-periode-nama">Data terkini</span> &middot; <span class="js-periode-vol">Web API BPS</span></p>
+        <p class="versi-pill" id="heroVersi" hidden title="Tanggal angka situs ini terakhir diperbarui dari Web API BPS"></p>
+        <div class="seg" data-seg="periode" style="margin-bottom:16px" role="group" aria-label="Pilih periode"></div>
+        <div class="mini-grid" id="heroMini"></div>
+      </aside>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================ RINGKASAN ============================ -->
+<section class="block" id="ringkasan">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Ringkasan</span>
+      <h2>Data Indikator Strategis</h2>
+      <p id="pengantar-ringkasan"></p>
+    </div>
+
+    <div class="controls reveal">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="searchInput" placeholder="Cari indikator… misal: IPM, gini, pengangguran" aria-label="Cari indikator">
+      </div>
+      <div class="seg" data-seg="periode" role="group" aria-label="Pilih periode"></div>
+    </div>
+
+    <div class="chips reveal" id="chipKategori" role="group" aria-label="Saring kategori"></div>
+
+    <p style="font-size:13px;color:var(--text-mute);margin:0 0 18px">
+      Menampilkan <strong id="kpiCount">0</strong> indikator. <span id="periodeCatatan"></span>
+    </p>
+
+    <div class="kpi-grid" id="kpiGrid"></div>
+    <div class="empty-state" id="kpiEmpty" hidden>
+      Tidak ada indikator yang cocok dengan pencarian atau filter tersebut.
+    </div>
+    <p class="alur-catatan">
+      Setiap kartu punya tautan <b>Minta data lengkap</b> — membuka tabel statistik di website BPS Kabupaten Sigi — dan
+      <b>Tanya PST</b> untuk bertanya ke Pelayanan Statistik Terpadu BPS. Dari angka ke layanan, satu klik.
+    </p>
+  </div>
+</section>
+
+<!-- ============================ EKONOMI ============================ -->
+<section class="block alt" id="ekonomi">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Bagian B</span>
+      <h2>Pertumbuhan &amp; Ukuran Ekonomi</h2>
+      <p id="pengantar-ekonomi"></p>
+    </div>
+
+    <div class="split">
+      <div class="card reveal">
+        <div class="card__head">
+          <h3 class="card__title">Produk Domestik Regional Bruto (Miliar Rupiah)</h3>
+          <div class="seg" data-seg="pdrb" role="group" aria-label="Mode tampilan PDRB">
+            <button type="button" data-value="triwulan" class="is-active">Triwulanan</button>
+            <button type="button" data-value="tahun">Tahunan</button>
+          </div>
+        </div>
+        <p class="card__sub" id="pdrbSub"></p>
+        <div class="chart-box tall"><canvas id="chartPdrb"></canvas></div>
+      </div>
+
+      <div class="note-list reveal" id="narEkonomi"></div>
+    </div>
+
+    <div class="banner reveal" id="sorotanEkonomi"></div>
+  </div>
+</section>
+
+<!-- ============================ KEPENDUDUKAN ============================ -->
+<section class="block" id="kependudukan">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Bagian A</span>
+      <h2>Potret Kependudukan</h2>
+      <p id="pengantar-kependudukan"></p>
+    </div>
+
+    <div class="card reveal" style="margin-bottom:22px">
+      <div class="card__head">
+        <h3 class="card__title" id="petaJudul"></h3>
+        <div class="seg" data-seg="map" role="group" aria-label="Pilih metrik peta">
+          <button type="button" data-value="penduduk" class="is-active">Jumlah Penduduk</button>
+          <button type="button" data-value="miskin">Angka Kemiskinan</button>
+        </div>
+      </div>
+      <p class="card__sub" id="petaSub"></p>
+
+      <div class="map-shell">
+        <div class="cartogram" id="cartogram"></div>
+        <div class="map-side">
+          <div class="legend">
+            <span id="legendLo">Sedikit</span>
+            <span class="legend__bar" id="legendBar"></span>
+            <span id="legendHi">Banyak</span>
+          </div>
+          <div class="region-detail" id="regionDetail"></div>
+          <p style="font-size:12px;color:var(--text-mute);margin:0;line-height:1.55" id="petaCatatan"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="split-even">
+      <div class="card reveal">
+        <h3 class="card__title" id="generasiJudul"></h3>
+        <p class="card__sub" id="generasiSub"></p>
+        <div class="chart-box"><canvas id="chartGenerasi"></canvas></div>
+      </div>
+
+      <div class="reveal">
+        <div class="stat-row" id="demografiStat" style="margin-bottom:16px"></div>
+        <div class="note-list" id="catatanKependudukan"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PEMBANGUNAN MANUSIA ============================ -->
+<section class="block alt" id="manusia">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Bagian C</span>
+      <h2>Pembangunan Manusia &amp; Kesejahteraan</h2>
+      <p id="pengantar-manusia"></p>
+    </div>
+
+    <div class="split">
+      <div class="card reveal">
+        <h3 class="card__title" id="ipmJudul"></h3>
+        <p class="card__sub" id="ipmSub"></p>
+        <div class="chart-box"><canvas id="chartIpm"></canvas></div>
+      </div>
+
+      <div class="card reveal">
+        <h3 class="card__title" id="ipmJudulKomponen"></h3>
+        <p class="card__sub" id="ipmSubKomponen"></p>
+        <dl id="ipmKomponen" style="margin:0;display:grid;gap:10px"></dl>
+      </div>
+    </div>
+
+    <div class="note-list reveal" id="narManusia" style="margin-top:22px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));display:grid;gap:12px"></div>
+  </div>
+</section>
+
+<!-- ============================ KEMISKINAN ============================ -->
+<section class="block" id="kemiskinan">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Bagian D</span>
+      <h2>Profil Kemiskinan &amp; Pemerataan</h2>
+      <p id="pengantar-kemiskinan"></p>
+    </div>
+
+    <div class="split-even">
+      <div class="card reveal">
+        <h3 class="card__title" id="kemiskinanJudul"></h3>
+        <p class="card__sub" id="kemiskinanSub"></p>
+        <div class="chart-box"><canvas id="chartKemiskinan"></canvas></div>
+      </div>
+
+      <div class="card reveal">
+        <h3 class="card__title" id="garisJudul"></h3>
+        <p class="card__sub" id="garisSub"></p>
+        <div class="chart-box"><canvas id="chartGaris"></canvas></div>
+      </div>
+    </div>
+
+    <div class="banner reveal" id="sorotanKemiskinan"></div>
+
+    <div class="note-list reveal" id="narPemerataan" style="margin-top:22px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));display:grid;gap:12px"></div>
+
+    <div class="card reveal" style="margin-top:22px;border-left:4px solid var(--brand)">
+      <h3 class="card__title" id="penutupJudul"></h3>
+      <p style="margin:8px 0 0;color:var(--text-soft);font-size:14.5px;line-height:1.65" id="penutupIsi"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BANDINGKAN ============================ -->
+<section class="block alt" id="bandingkan">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Bagian E</span>
+      <h2>Bandingkan dengan Kabupaten/Kota Lain</h2>
+      <p>Posisi Kabupaten Sigi di antara tiga belas kabupaten/kota Sulawesi Tengah. Pilih indikatornya; batang oranye adalah Sigi, garis putus-putus angka Provinsi Sulawesi Tengah.</p>
+    </div>
+    <div class="card reveal">
+      <div class="banding__pilih" id="bandingPilih" role="group" aria-label="Pilih indikator"></div>
+      <div class="banding__ring" id="bandingRing"></div>
+      <div class="chart-box chart-box--tinggi"><canvas id="chartBanding"></canvas></div>
+      <p class="banding__sumber" id="bandingSumber"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ RILIS ============================ -->
+<section class="block" id="rilis">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Baru dari BPS Sigi</span>
+      <h2>Rilis Terbaru</h2>
+      <p>Berita Resmi Statistik, publikasi, dan infografis terbaru BPS Kabupaten Sigi. Daftar ini ikut diperbarui otomatis dari Web API BPS.</p>
+    </div>
+    <div class="seg rilis__tab reveal" id="rilisTab" role="tablist" aria-label="Jenis rilis">
+      <button type="button" role="tab" data-rilis="brs" class="is-active" aria-selected="true">Berita Resmi Statistik</button>
+      <button type="button" role="tab" data-rilis="publikasi" aria-selected="false">Publikasi</button>
+      <button type="button" role="tab" data-rilis="infografis" aria-selected="false">Infografis</button>
+    </div>
+    <div class="rilis__grid" id="rilisGrid"></div>
+  </div>
+</section>
+
+<!-- ============================ REKOMENDASI ============================ -->
+<section class="block alt" id="rekomendasi">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Rekomendasi</span>
+      <h2>Rekomendasi Kebijakan</h2>
+      <p id="pengantar-rekomendasi"></p>
+    </div>
+    <div class="acc" id="accRekom"></div>
+  </div>
+</section>
+
+<!-- ============================ SUMBER ============================ -->
+<section class="block" id="sumber">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Metodologi</span>
+      <h2>Sumber Data &amp; Catatan</h2>
+      <p id="pengantar-sumber"></p>
+    </div>
+
+    <div class="table-wrap reveal">
+      <table>
+        <thead>
+          <tr><th style="width:52px">No</th><th>Publikasi / Survei</th><th style="width:34%">Penerbit</th></tr>
+        </thead>
+        <tbody id="tabelSumber"></tbody>
+      </table>
+    </div>
+
+    <div class="split-3 reveal" style="margin-top:22px">
+      <div class="note">
+        <h4>Apa itu data dan statistik?</h4>
+        <p>Data merupakan informasi berupa angka tentang karakteristik suatu populasi. Statistik adalah informasi
+        berupa angka tentang karakteristik suatu populasi hasil penyelenggaraan statistik.</p>
+      </div>
+      <div class="note" style="border-left-color:var(--amber)">
+        <h4>Tiga jenis statistik</h4>
+        <p><strong>Statistik dasar</strong> untuk keperluan luas dan lintas sektoral; <strong>statistik sektoral</strong>
+        untuk kebutuhan instansi tertentu; <strong>statistik khusus</strong> untuk kebutuhan dunia usaha, pendidikan,
+        sosial budaya, dan kepentingan lain di masyarakat.</p>
+      </div>
+      <div class="note" style="border-left-color:var(--teal)">
+        <h4>Peran data dalam pembangunan</h4>
+        <p>Perencanaan pembangunan didasarkan pada data dan informasi yang akurat dan dapat dipertanggungjawabkan
+        (UU Nomor 25 Tahun 2004 tentang SPPN). Data berperan dalam penyusunan, penetapan, pelaksanaan,
+        hingga evaluasi rencana pembangunan.</p>
+      </div>
+    </div>
+
+    <p style="margin-top:26px;font-size:13.5px;color:var(--text-mute);line-height:1.65" id="catatanSumber"></p>
+
+    <div class="alur reveal">
+      <h3>Butuh angka yang lebih rinci dari yang tampil di sini?</h3>
+      <p>Angka di sini adalah ringkasan. Tabel lengkap, publikasi <i>Kabupaten Sigi Dalam Angka</i>, dan konsultasi data
+        dengan petugas BPS tersedia di website BPS Kabupaten Sigi dan layanan PST.</p>
+      <div class="alur__tombol">
+        <a class="btn btn--primary" href="https://sigikab.bps.go.id/id/statistics-table" target="_blank" rel="noopener">Buka Tabel Statistik</a>
+        <button class="btn btn--ghost" type="button" data-unduh-csv>Unduh semua angka situs ini (CSV)</button>
+        <a class="btn btn--ghost" href="https://sigikab.bps.go.id/id/publication" target="_blank" rel="noopener">Publikasi BPS Sigi</a>
+        <a class="btn btn--ghost" href="https://pst.bps.go.id/" target="_blank" rel="noopener">Layanan PST BPS</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="#top" style="margin-bottom:14px">
+          <span class="brand__mark">SG</span>
+          <span class="brand__text">
+            <span class="brand__title">Indikator Strategis Sigi</span>
+            <span class="brand__sub">BPS Kabupaten Sigi</span>
+          </span>
+        </a>
+        <p id="footerDeskripsi"></p>
+        <p style="font-weight:700;color:var(--brand-text)" id="footerSlogan"></p>
+      </div>
+
+      <div>
+        <h5>Bagian</h5>
+        <ul>
+          <li><a href="#peta">Peta kecamatan</a></li>
+          <li><a href="#ringkasan">Ringkasan indikator</a></li>
+          <li><a href="#ekonomi">Pertumbuhan &amp; ukuran ekonomi</a></li>
+          <li><a href="#kependudukan">Potret kependudukan</a></li>
+          <li><a href="#manusia">Pembangunan manusia</a></li>
+          <li><a href="#kemiskinan">Profil kemiskinan</a></li>
+          <li><a href="#bandingkan">Bandingkan kab/kota se-Sulteng</a></li>
+          <li><a href="#rilis">Rilis terbaru BPS Sigi</a></li>
+          <li><a href="#rekomendasi">Rekomendasi kebijakan</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Layanan BPS</h5>
+        <ul>
+          <li><a href="https://sigikab.bps.go.id/id/statistics-table" target="_blank" rel="noopener">Tabel statistik</a></li>
+          <li><a href="https://sigikab.bps.go.id/id/publication" target="_blank" rel="noopener">Publikasi</a></li>
+          <li><a href="https://sigikab.bps.go.id/id/pressrelease" target="_blank" rel="noopener">Berita Resmi Statistik</a></li>
+          <li><a href="https://pst.bps.go.id/" target="_blank" rel="noopener">Pelayanan Statistik Terpadu (PST)</a></li>
+        </ul>
+        <h5 style="margin-top:18px">Sumber resmi</h5>
+        <ul>
+          <li><a href="https://sigikab.bps.go.id" target="_blank" rel="noopener">BPS Kabupaten Sigi</a></li>
+          <li><a href="https://sulteng.bps.go.id" target="_blank" rel="noopener">BPS Provinsi Sulawesi Tengah</a></li>
+          <li><a href="https://www.bps.go.id" target="_blank" rel="noopener">Badan Pusat Statistik</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <span>&copy; <span id="tahunFooter">2026</span> &middot; Data bersumber dari Badan Pusat Statistik</span>
+      <span id="infoVersi"></span>
+      <span>Data mencerdaskan bangsa</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="assets/data.js"></script>
+<script src="assets/muat.js"></script>
+<script src="assets/kartu.js"></script>
+<script src="assets/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="assets/sigi-kecamatan.js"></script>
+<script src="assets/peta.js"></script>
+</body>
+</html>
